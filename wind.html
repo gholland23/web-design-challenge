@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content ="Width=device-width, initial-scale=1">
+  <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+
+  <title>Geoffrey's Beast Website</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--NAVBAR-->
+<!--THIS GOES ON EVERY HTML-->
+<div class= "nagivation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!--do index.html for this href below next to latitude once index.html is made-->
+      <a class="navbar-brand" href="index.html">LATITUDE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--the files and shit-->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role ="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <!--don't forget to put our 4 drop down htmls and change the according buttons-->
+                    <a class="dropdown-item" href="temp.html">Max Temp</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  </div>
+                </li>
+              
+              <li class="nav-item">
+                  <!--put in html-->
+                  <a class="nav-link" href="comparisons.html">Comparisons</a>
+              </li>
+
+              <li class="nav-item">
+                  <!--put in html-->
+                  <a class="nav-link" href="data.html"> Data</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</div>
+  
+<!--start of shit on page-->
+<!-- <div class="container">
+  <div class="col-lg-6">
+    <div class="row">
+      <div class="project-description">
+        <h1 class="project-header">Latitude vs X:</h1>
+        <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="project-image img-thumbnail">
+        <li>The following project was done to study the effects latitude has on weather patterns.</li>
+        <li>We looked at how latitude changes temperature, cloud coverage, humidity, and wind speed.</li>
+      </div>
+  <section id="visualization-mini-area">
+    <div class="col-lg-6">
+      <h1 class="visualization-header">Visualization Map</h1>
+    </div>
+  </section>
+    </div>
+  </div>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+        <h1>Wind Effect:</h1>
+        <img src="Resources/assets/images/Fig4.png" alt="Latitude vs Wind" class="project-image img-thumbnail">
+        <li>The following project was done to study the effects latitude has on wind patterns.</li>
+        
+    </div>
+    <div class="col-lg-6">
+      <h1 style="color:blue">Visualizations</h1>
+      <div class="row">
+        <div class = "col-lg-6">
+          <a href="temp.html">
+          <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="project-image img-thumbnail">
+        </a> 
+        </div>
+        <div class = "col-lg-6">
+          <a href="humidity.html">
+          <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="project-image img-thumbnail">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a href="cloudiness.html">
+          <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness" class="project-image img-thumbnail">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a href="wind.html">
+          <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind", title="Latitude vs. Wind" class="project-image img-thumbnail">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+</body>
+</html>

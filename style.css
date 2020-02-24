@@ -1,0 +1,19 @@
+style.css
+
+body{
+    background-color: #EDEDED; 
+}
+
+.navbar{
+    max-height: 50px; 
+	background-color: #cacccb; 
+    font-size: 15px; 
+}
+
+.imageNav-content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
